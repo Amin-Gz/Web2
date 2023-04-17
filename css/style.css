@@ -1,0 +1,123 @@
+html {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  scroll-behavior: smooth;
+}
+
+.searchbox {
+  background-color: #444343;
+}
+
+.bc-dark {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.tc {
+  color: rgb(221, 221, 221);
+}
+
+.tc:hover {
+  color: rgb(221, 221, 221);
+}
+
+@media screen and (min-width: 576px) {
+  ul li {
+    border: none;
+  }
+}
+@media screen and (max-width: 576px) {
+  .navbar-collapse {
+    background-color: black;
+    height: 100vh;
+  }
+  ul {
+    margin: 0 auto;
+  }
+}
+a {
+  display: block;
+  text-decoration: none;
+}
+
+.s1 {
+  background-image: url("change.jpeg");
+}
+
+.s2 {
+  background-image: url("hero_endframe__8xosbwdvpaqe_large_2x.jpg");
+}
+
+.s3 {
+  background-image: url("promo_iphone14pro__4n4twj56fzmu_large_2x.jpg");
+}
+
+.s4 {
+  background-image: url("promo_iphone14pro__4n4twj56fzmu_large_2x.jpg");
+}
+
+.imgsize {
+  height: 55rem;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.title {
+  color: #fff;
+  text-align: center;
+  padding-top: 5.5rem;
+}
+
+.title-down {
+  margin-top: 31rem;
+}
+
+.title-heading {
+  font-size: 5.6rem;
+  line-height: 1.08;
+  letter-spacing: 0.005rem;
+}
+
+.title-sub-heading {
+  font-size: 2.65rem;
+  margin-top: 0.6rem;
+  letter-spacing: 0.008rem;
+  font-weight: 300;
+}
+
+.title-price {
+  font-size: 1.7rem;
+  color: #888;
+  margin-top: 0.68rem;
+}
+
+.cta {
+  text-align: center;
+  margin-top: 1.8rem;
+}
+
+.cta-link {
+  color: #06c;
+  font-size: 1.6rem;
+  display: inline-block;
+  line-height: normal;
+}
+
+.cta-link:nth-child(2) {
+  margin-left: 2.6rem;
+}
+
+.cta-link:hover {
+  border-bottom: 2px solid #06c;
+}
+
+.title-dark {
+  color: black;
+}
+
+.cta-link-darker {
+  color: #0070c9;
+}
+
+.cta-link-darker:hover {
+  border-bottom-color: #0070c9;
+}/*# sourceMappingURL=style.css.map */
